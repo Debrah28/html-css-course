@@ -1,0 +1,152 @@
+ <style>
+  .subscribe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .subscribe-button:hover{
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active{
+    opacity: 0.5;
+  }
+
+  /* our padding top and butom is less than the subscribe top and buttom because we added a boarder width in join button so adding it increases the top and buttom by the value we give it.since we gave it a border width of 1px automatically, the padding top and buttom adds 1px to the value, it has*/
+  .join{
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6, 95, 212);
+    /* height: 36px;
+    width: 62px; */ 
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+     transition: background-color 0.15s, color 0.15s;
+  }
+
+  .join:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+
+  .join:active{
+    opacity: 0.7;
+  }
+
+  .bye{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: padding-top 1s,
+    padding-bottom 1s,
+    padding-left 1s
+    padding-right 1s;
+  }
+
+  .bye:hover {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .shadow{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .shadow:active{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: none;
+  }
+
+  .stretch{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: padding 0.15s,
+    margin 0.15s;
+  }
+
+  .stretch:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+  .tweet{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  .tweet:hover{
+     box-shadow: 5px 50px 10px rgba(0, 0, 0, 0.15); 
+  }
+ </style>
+
+
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<button class="join">JOIN</button>
+
+<button class="bye">BYE</button>
+
+<button class="shadow">Shadow</button>
+
+<button class="stretch">ONE</button>
+<button class="stretch">TWO</button>
+<button class="stretch">THREE</button>
+
+<button class="tweet">Tweet</button>
