@@ -6,4 +6,7 @@
 
       body{
         margin: 0;
+        padding-top: 80px ;
+        padding-left: 80px;
       }
+      /* we have padding, here because, since our position is fixed and we have set a height, the first div might be covered by the height we have set. so we want space */
