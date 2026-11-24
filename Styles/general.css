@@ -5,8 +5,12 @@
       }
 
       body{
+        /* This style below will be inherited */
+        font-family: Roboto, Arial;
         margin: 0;
         padding-top: 80px ;
-        padding-left: 80px;
+        padding-left: 96px;
+        padding-right: 24px;
+        background-color: rgb(248, 248, 248);
       }
-      /* we have padding, here because, since our position is fixed and we have set a height, the first div might be covered by the height we have set. so we want space */
+      /* we have padding, here because, since our position is fixed in header.css and we have set a height, the first div might be covered by the height we have set. so we want space */
